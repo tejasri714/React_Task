@@ -1,0 +1,70 @@
+.landing-fullscreen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .landing-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    padding: 40px 28px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    text-align: center;
+  }
+  
+  .landing-logo {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .landing-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .landing-subtitle {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 1.4;
+  }
+  
+  .landing-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .landing-btn {
+    width: 240px;              /* same fixed width for both buttons */
+    padding: 12px 0;            /* remove horizontal padding to keep width exact */
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+  }
+  
+  .landing-primary {
+    background: #7b3eff;
+    color: #fff;
+  }
+  
+  .landing-primary:hover {
+    background: #6933d6;
+  }
+  
+  .landing-secondary {
+    background: #eee;
+    color: #333;
+  }
+  
